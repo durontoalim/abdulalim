@@ -22,7 +22,11 @@ body{
   box-sizing: border-box;
 }
 a{
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #FB839E;
+  cursor: pointer;
+}
+a:hover{
   color: #FB839E;
   cursor: pointer;
 }
@@ -439,44 +443,6 @@ Skills Section
   box-shadow:inset 3px 3px 3px #d0d0d0 , inset -3px -3px 3px #f8f8f8 !important;
   color: #FB839E !important;
 }
-
-.skill-section-wrapper{
-  padding: 0px 0px 100px;
-}
-.skill-item{
-  flex: 0 0 50%;
-  max-width: 50%;
-  margin: 20px auto;
-  padding: 15px 20px;
-  font-size: 17px;
-  text-transform: capitalize;
-  position: relative;
-}
-.skill-item p{
-  font-size: 16px;
-  text-transform: capitalize;
-  margin: 0 0 15px;
-}
-.percent{
-  position:absolute;
-  top: 10px;
-  left: 50%;
-}
-.progress{
-  border-radius: 10px;
-  height: 20px;
-  box-shadow:inset 3px 3px 3px #d0d0d0 ,inset  -3px -3px 3px #f8f8f8;
-  position: relative;
-}
-.progress-bar{
-  position: absolute;
-  height: 6px;
-  width: 70%;
-  background-color: #555555;
-  border-radius: 10px;
-  top: 7px;
-  left: 7px;
-}
 /* experience */
 .experience-wrapper{
   position: relative;
@@ -639,9 +605,21 @@ Portfolio Section
   padding: 10px 15px;
   margin: 10px 10px;
   border-radius: 5px;
-  height: 300px;
+  height: 280px;
 }
-
+.portfolio-box img{
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.portfolio-box a{
+  color: #666666;
+  font-size: 17px;
+  font-weight: 100;
+}
+.portfolio-box a:hover{
+  color: #ff5200 !important;
+}
 /*=============
 Testimonial
 =============*/
@@ -768,25 +746,25 @@ CONTACT SECTION
 .contact-form{
   padding: 100px 0 40px;
 }
-.contact-form .form-section{
+.contact-form .fm-section{
   flex: 0 0 100%;
   max-width: 100%;
 }
-.contact-form .form-section .w-50{
+.contact-form .fm-section .w-50{
   flex: 0 0 50%;
   width: 50%;
   padding: 0 15px;
 }
-.contact-form .form-section .w-50 .form-control{
+.contact-form .fm-section .w-50 .fm-control{
   margin: 0 0 25px;
   transition: all 0.5 ease;
   border-radius: 30px;
   padding: 15px;
 }
-.contact-form .form-section .w-50 .form-control::after{
+.contact-form .fm-section .w-50 .fm-control::after{
   border-radius: 30px;
 }
-.contact-form .form-section .w-50 .form-control .form-control-input{
+.contact-form .fm-section .w-50 .fm-control .fm-control-input{
   display: block;
   height: 30px;
   width: 100%;
@@ -796,17 +774,17 @@ CONTACT SECTION
   font-size: 16px;
   padding: 0 20px;
 }
-.contact-form .form-section .w-50 .form-control textarea{
+.contact-form .fm-section .w-50 .fm-control textarea{
   height: 195px !important;
   padding: 10px 20px 0 !important;
 }
-.form-control-btn{
+.fm-control-btn{
   margin: 40px 0;
   flex: 0 0 100%;
   width: 100%;
   text-align: right;
 }
-.form-control-btn button{
+.fm-control-btn button{
   padding: 15px 30px;
   border: none;
   border-radius: 30px;

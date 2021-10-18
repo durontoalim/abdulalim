@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <!-- font awesome -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- main css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/proggress-bar.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css"/>
+    
+
+
   </head>
   <body>
     <!--Header Section Start-->
@@ -106,9 +114,7 @@
             <p>Web Designer And Developer</p>
             <div class="btn">
               <button class="btn-mam">
-                <a href="https://www.linkedin.com/in/durontoalim/">
-                  More About Me</a
-                >
+                <a href="https://www.linkedin.com/in/durontoalim/"> More About Me </a>
               </button>
             </div>
           </div>
@@ -140,16 +146,13 @@
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
               <a href="#"
-                ><i class="fab fa-instagram" aria-hidden="true"></i
-              ></a>
+                ><i class="fab fa-instagram" aria-hidden="true"></i></a>
               <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
           <div class="about-details-sec">
             <p>
-              <span class="about-dtl-par"
-                >Hi, My Name is The Md. Abdul Alim. I'm a Web Developer.</span
-              >
+              <span class="about-dtl-par"> Hi, My Name is The Md. Abdul Alim. I'm a Web Developer.</span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
               excepturi, nisi eos fugiat, hic natus, unde numquam dolore rerum
               eveniet delectus quia! Commodi quia nisi recusandae adipisci
@@ -182,10 +185,10 @@
         <div class="row">
           <div class="tabs">
             <div class="skills-tab active-inner">
-              <a href="#">Skills</a>
+              <a href="#skill-section">Skills</a>
             </div>
             <div class="experience-tab">
-              <a href="#">Experience</a>
+              <a href="#experience">Experience</a>
             </div>
             <div class="education-tab">
               <a href="#">Education</a>
@@ -193,79 +196,141 @@
           </div>
         </div>
 
-        <div class="skill-section-wrapper">
+        <div id="skill-section" class="skill py-5 overflow-hidden text-center">
           <!--start Skill item-->
-          <div class="row">
-            <div class="skill-item">
-              <p>Html</p>
-              <div class="percent">
-                <span>80%</span>
+          <div class="row py-5">
+            <div class="html-section col-lg-4 col-md-6 col-sm-12">
+              <div class="box_wrapper">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">95%</div>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
               </div>
-              <div class="progress">
-                <div class="progress-bar"></div>
-              </div>
-            </div>
-            <!--End skill item-->
-            <!--start Skill item-->
-            <div class="skill-item">
-              <p>Javascript</p>
-              <div class="percent">
-                <span>60%</span>
-              </div>
-              <div class="progress">
-                <div class="progress-bar"></div>
-              </div>
-            </div>
-            <!--End skill item-->
-            <!--start Skill item-->
-            <div class="skill-item">
-              <p>Bootstrap</p>
-              <div class="percent">
-                <span>70%</span>
-              </div>
-              <div class="progress">
-                <div class="progress-bar"></div>
+              <div class="py-3">
+                <h5>HTML</h5>
               </div>
             </div>
-            <!--End skill item-->
-            <!--start Skill item-->
-            <div class="skill-item">
-              <p>Jquery</p>
-              <div class="percent">
-                <span>65%</span>
+            <div class="css-section col-lg-4 col-md-6 col-sm-12">
+              <div class="box_wrapper">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">90%</div>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
               </div>
-              <div class="progress">
-                <div class="progress-bar"></div>
+              <div class="py-3">
+                <h5>CSS</h5>
               </div>
             </div>
-            <!--End skill item-->
-            <!--start Skill item-->
-            <div class="skill-item">
-              <p>MongoDB</p>
-              <div class="percent">
-                <span>80%</span>
+            <div class="bootstrap-section col-lg-4 col-md-6 col-sm-12">
+              <div class="box_wrapper">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">85%</div>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
               </div>
-              <div class="progress">
-                <div class="progress-bar"></div>
+              <div class="py-3">
+                <h5>Bootstrap</h5>
               </div>
             </div>
-            <!--End skill item-->
-            <!--start Skill item-->
-            <div class="skill-item">
-              <p>NodeJS</p>
-              <div class="percent">
-                <span>75%</span>
+            <div class="jquery-section col-lg-4 col-md-6 col-sm-12 mt-5">
+              <div class="box_wrapper">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">70%</div>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
               </div>
-              <div class="progress">
-                <div class="progress-bar"></div>
+              <div class="py-3">
+                <h5>jQuery</h5>
+              </div>
+            </div>
+            <div class="javascript-section col-lg-4 col-md-6 col-sm-12 mt-5">
+              <div class="box_wrapper">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">75%</div>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="py-3">
+                <h5>Javascript</h5>
+              </div>
+            </div>
+            <div class="react-section col-lg-4 col-md-6 col-sm-12 mt-5">
+              <div class="box_wrapper">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">65%</div>
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="py-3">
+                <h5>React</h5>
               </div>
             </div>
           </div>
-          <!--End skill item-->
         </div>
-
+        <!--End skill item-->
+        
         <!--Experience Start-->
-        <div class="row">
+        <div class="row" id="experience">
           <div class="experience-wrapper">
             <!--Absoule Middle line Start-->
             <div class="middle-line"></div>
@@ -324,7 +389,6 @@
     <!--End Skills Section-->
 
     <!--Start Service Section-->
-
     <section id="services-section">
       <div class="container">
         <div class="row">
@@ -463,37 +527,37 @@
             <!--Portfolio Box Start-->
             <div class="portfolio-box inner-shadow">
               <img src="src/img/portfolio.png" alt="img-portfolio" />
-              <h4>Parsonal Portfolio</h4>
+              <a href="https://jessyfoodylove.netlify.app">Food Website</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
             <div class="portfolio-box inner-shadow">
               <img src="src/img/portfolio-5.png" alt="img-portfolio" />
-              <h4>Parsonal Portfolio</h4>
+              <a href="https://audio-interface.netlify.app">Admin Login</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
             <div class="portfolio-box inner-shadow">
-              <img src="" alt="img-portfolio" />
-              <h4>Parsonal Portfolio</h4>
+              <img src="src/img/portfolio-1.png" alt="img-portfolio" />
+              <a href="https://brigate-constraction.netlify.app">Constraction Website</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
             <div class="portfolio-box inner-shadow">
-              <img src="" alt="img-portfolio" />
-              <h4>Parsonal Portfolio</h4>
+              <img src="src/img/portfolio-3.png" alt="img-portfolio" />
+              <a href="https://travel-agencyy.netlify.app">Travel Ticket Booking</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
             <div class="portfolio-box inner-shadow">
-              <img src="" alt="img-portfolio" />
-              <h4>Parsonal Portfolio</h4>
+              <img src="src/img/portfolio-4.png" alt="img-portfolio" />
+              <a href="https://bluerex-agency.netlify.app" class="">Parsonal Portfolio</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
             <div class="portfolio-box inner-shadow">
-              <img src="" alt="img-portfolio" />
-              <h4>Parsonal Portfolio</h4>
+              <img src="src/img/portfolio-6.png" alt="img-portfolio" />
+              <a href="https://the-systematic.netlify.app">Parsonal Portfolio</a>
             </div>
             <!--Portfolio Box End-->
           </div>
@@ -584,27 +648,27 @@
         </div>
         <div class="contact-form">
           <div class="row">
-            <form class="form-section" method="POST" action="#">
+            <form class="fm-section" method="POST" action="#">
               <div class="row">
                 <div class="w-50">
-                  <div class="form-control inner-shadow outer-shadow-hover">
-                    <input class="form-control-input" type="text" name="text" placeholder="Name" />
+                  <div class="fm-control inner-shadow outer-shadow-hover">
+                    <input class="fm-control-input" type="text" name="text" placeholder="Name" />
                   </div>
-                  <div class="form-control inner-shadow outer-shadow-hover">
-                    <input class="form-control-input" type="email" name="email" placeholder="Email" />
+                  <div class="fm-control inner-shadow outer-shadow-hover">
+                    <input class="fm-control-input" type="email" name="email" placeholder="Email" />
                   </div>
-                  <div class="form-control inner-shadow outer-shadow-hover">
-                    <input class="form-control-input" type="phone-number" name="number" placeholder="Phone Number" />
+                  <div class="fm-control inner-shadow outer-shadow-hover">
+                    <input class="fm-control-input" type="phone-number" name="number" placeholder="Phone Number" />
                   </div>
                 </div>
                 <div class="w-50">
-                  <div class="form-control inner-shadow outer-shadow-hover">
-                    <textarea class="form-control-input" type="text" name="Message" placeholder="Message"></textarea>
+                  <div class="fm-control inner-shadow outer-shadow-hover">
+                    <textarea class="fm-control-input" type="text" name="Message" placeholder="Message"></textarea>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="form-control-btn ">
+                <div class="fm-control-btn ">
                     <button class="inner-shadow outer-shadow-hover" type="submit" >Send Message</button>
                   </div>
               </div>
@@ -612,6 +676,11 @@
         </div>
       </div>
     </section>
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- main js -->
     <script src="js/main.js"></script>
