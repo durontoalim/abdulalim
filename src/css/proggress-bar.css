@@ -1,17 +1,57 @@
 #skill-section {
   width: 100%;
   height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .skill {
   width: 160px;
   height: 160px;
   position: relative;
 }
-.box_wrapper {
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  font-size: 18px;
+}
+.box_wrapper1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 25px;
 }
+.box_wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.box_wrapper3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.box_wrapper4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.box_wrapper5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.box_wrapper6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
 .skill .outer {
   height: 160px;
   width: 160px;
@@ -36,6 +76,10 @@
 svg {
   position: absolute;
   top: 0;
+  margin-top: 25px;
+}
+.skill-name{
+  padding-top: 20px;
 }
 .html-section svg circle {
   fill: none;
