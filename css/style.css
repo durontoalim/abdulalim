@@ -444,6 +444,9 @@ Skills Section
   color: #FB839E !important;
 }
 /* experience */
+div#experience {
+  margin-top: 150px;
+}
 .experience-wrapper{
   position: relative;
 }
