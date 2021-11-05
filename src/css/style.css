@@ -171,8 +171,12 @@ Start Home Section
     border-radius: 50%;
     font-size: 20px;
 }
+.setting-mode a{
+  animation:spin 5s linear infinite;
+}
 .setting-darkmode a:hover{
   box-shadow: inset 3px 3px 3px #d0d0d0 ,inset -3px -3px 3px #f8f8f8;
+  color: #ff5200;
 }
 .dark-mode{
   padding: 20px 0px;
