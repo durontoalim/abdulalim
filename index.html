@@ -515,49 +515,49 @@
         </div>
         <div class="row">
           <div class="portfolio-items-bar">
-            <a class="inner-shadow outer-shadow-hover" href="">All</a>
-            <a class="outer-shadow-hover" href="">Web Application</a>
-            <a class="outer-shadow-hover" href="">Photoshop</a>
-            <a class="outer-shadow-hover" href=""> Mobile App</a>
-            <a class="outer-shadow-hover" href="">E Commerce</a>
+            <button type="button" class="inner-shadow outer-shadow-hover" data-filter="all"> All</button>
+            <button type="button" class="outer-shadow-hover" data-filter=".food-web"> Web Application</button>
+            <button type="button" class="outer-shadow-hover" data-filter=".agency"> Agency Website</button>
+            <button type="button" class="outer-shadow-hover" data-filter=".admin-login"> Mobile App</button>
+            <button type="button" class="outer-shadow-hover" data-filter=".travel"> E-Commerce</button>
           </div>
         </div>
         <div class="portfolio-box-wrapper">
-          <div class="row">
+          <div class="row mixitup-container">
             <!--Portfolio Box Start-->
-            <div class="portfolio-box inner-shadow">
+            <div class="portfolio-box inner-shadow mix food-web">
               <img src="src/img/portfolio.png" alt="img-portfolio" />
               <a href="https://jessyfoodylove.netlify.app">Food Website</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
-            <div class="portfolio-box inner-shadow">
+            <div class="portfolio-box inner-shadow mix admin-login">
               <img src="src/img/portfolio-5.png" alt="img-portfolio" />
               <a href="https://audio-interface.netlify.app">Admin Login</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
-            <div class="portfolio-box inner-shadow">
+            <div class="portfolio-box inner-shadow mix constraction">
               <img src="src/img/portfolio-1.png" alt="img-portfolio" />
               <a href="https://brigate-constraction.netlify.app">Constraction Website</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
-            <div class="portfolio-box inner-shadow">
+            <div class="portfolio-box inner-shadow mix travel">
               <img src="src/img/portfolio-3.png" alt="img-portfolio" />
               <a href="https://travel-agencyy.netlify.app">Travel Ticket Booking</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
-            <div class="portfolio-box inner-shadow">
+            <div class="portfolio-box inner-shadow mix agency">
               <img src="src/img/portfolio-4.png" alt="img-portfolio" />
-              <a href="https://bluerex-agency.netlify.app" class="">Parsonal Portfolio</a>
+              <a href="https://bluerex-agency.netlify.app" class="">Agency Site</a>
             </div>
             <!--Portfolio Box End-->
             <!--Portfolio Box Start-->
-            <div class="portfolio-box inner-shadow">
+            <div class="portfolio-box inner-shadow mix agency">
               <img src="src/img/portfolio-6.png" alt="img-portfolio" />
-              <a href="https://the-systematic.netlify.app">Parsonal Portfolio</a>
+              <a href="https://the-systematic.netlify.app"> Systemate Website</a>
             </div>
             <!--Portfolio Box End-->
           </div>
@@ -679,9 +679,11 @@
 
     <!--Bootstrap-->
 
-    <!-- main js -->
-    <script src="src/js/main.js"></script>
+
     <!-- style switcher js -->
     <script src="src/js/style-switcher.js"></script>
+    <script src="vendor/js/mixitup.js"></script>
+    <!-- main js -->
+    <script src="src/js/main.js"></script>
   </body>
 </html>

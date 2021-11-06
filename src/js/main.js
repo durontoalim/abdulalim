@@ -1,3 +1,8 @@
+/* MIx it up */
+$(document).ready(function(){
+    var mixer = mixitup ('.mixitup-container');
+});
+
 /*--------------Testimonial Slider-----------------------*/
 (() =>{
     const silderContainer = document.querySelector(".testi-slider-container"),
@@ -37,3 +42,9 @@
         silderContainer.style.marginLeft = - (slideWidth * slideIndex) + "px";
     }
 })();
+
+
+/* MIx it up */
+$(document).ready(function(){
+    var mixer = mixitup ('.mixitup-container');
+});
