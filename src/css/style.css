@@ -78,6 +78,7 @@ Header
   left: 0;
   z-index: 99;
   position: fixed;
+  overflow: hidden;
 }
 .header .logo a {
   display: inline-block;
@@ -97,6 +98,7 @@ Header
   height: 40px;
   width: 40px;
   text-align: center;
+  cursor: pointer;
 }
 .header .list-menu-btn:hover {
   box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
@@ -108,16 +110,14 @@ Header
 /*--------------
 Navigation menu
 -------------------*/
-.navigation-menu-section {
-  display: none;
-}
-.nav-menu {
+
+.nav-menu{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
   z-index: -1;
-  opacity: ;
+  opacity: 10;
   visibility: hidden;
   overflow-y: auto;
 }
