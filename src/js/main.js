@@ -48,7 +48,6 @@ $(document).ready(function(){
 $(document).ready(function(){
     var mixer = mixitup ('.mixitup-container');
 });
-
 /*NAvigation Menu */
 
 // document.getElementById('navigation-menu-section').style.display="none";

@@ -418,40 +418,25 @@ Skills Section
 .tabs {
   display: flex;
   margin: 10px auto 20px;
-  font-size: 20px;
 }
-.tabs div {
-  padding: 0 15px;
-}
-.skills-tab {
-  padding: 0 10px !important;
-  border-radius: 30px;
-}
-.skills-tab:hover {
-  box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8 !important;
-  color: #000 !important;
-}
-.experience-tab a {
+.tabs button {
+  border: none;
+  font-size: 18px;
   color: #000 !important;
   padding: 5px 15px;
   border-radius: 30px;
+  margin-right: 20px;
 }
-.experience-tab a:hover {
-  box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8 !important;
-  color: #fb839e !important;
-}
-.education-tab a {
-  color: #000 !important;
-  padding: 5px 15px;
-  border-radius: 30px;
-}
-.education-tab a:hover {
+.tabs button:hover {
   box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8 !important;
   color: #fb839e !important;
 }
 /* experience */
 div#experience {
-  margin-top: 150px;
+  margin-top: 100px;
+}
+div#education{
+  margin-top: 100px;
 }
 .experience-wrapper {
   position: relative;
