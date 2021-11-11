@@ -45,4 +45,17 @@
     .fm-control-btn {
         text-align: center;
     }
+    .experience-wrapper .developer:nth-child(2n+1) {
+        padding-right: calc(1% + 50px);
+        text-align: left;
+    }
+    .experience-wrapper .developer:nth-child(2n) {
+        padding-left: calc(0% + 50px);
+        text-align: right;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .middle-line{
+        display: none;
+    }
 }
