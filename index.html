@@ -15,8 +15,6 @@
     <link rel="stylesheet" type="text/css" href="src/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="src/css/skins/color-1.css"/>
     <link rel="stylesheet" href="src/css/responsive.css">
-    
-
 
   </head>
   <body>
@@ -38,97 +36,81 @@
       </div>
     </header>
     <!--Header Section End-->
-
-    <!--Navigation Menu Start-->
-    <nav class="navigation-menu-section">
-      <div class="navigation-close-icon"></div>
-      <div class="nav-menu" id="#Navbar-toggler">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About</a></li>
-          <li><a href="service.html">Service</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="testimonial.html">Testimonial</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+    
+<!--Start Home Section-->
+<section id="Home-section">
+  <!--Start  Setting Icon & Dark Mode-->
+    <div class="setting-darkmode">
+      <div class="setting-mode">
+        <a class="" href="#"><i class="fas fa-cog"></i></a>
       </div>
-    </nav>
-    <!--Navigation menu End-->
-
-    <!--Start Home Section-->
-    <section id="Home-section">
-      <!--Start  Setting Icon & Dark Mode-->
-      <div class="setting-darkmode">
-        <div class="setting-mode">
-          <a class="" href="#"><i class="fas fa-cog"></i></a>
-        </div>
-        <div class="dark-mode">
-          <a href="#"><i class="fas fa-moon"></i></a>
-        </div>
+      <div class="dark-mode">
+        <a href="#"><i class="fas fa-moon"></i></a>
       </div>
-      <!--End  Setting Icon & Dark Mode-->
+    </div>
+  <!--End  Setting Icon & Dark Mode-->
 
-      <!--Start Effect-->
-      <div class="effect-warp">
-        <div class="effect effect-1"></div>
-        <div class="effect effect-2">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div class="effect effect-3"></div>
-        <div class="effect effect-4">
-          <div></div>
+  <!--Start Effect-->
+    <div class="effect-warp">
+      <div class="effect effect-1"></div>
+      <div class="effect effect-2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="effect effect-3"></div>
+      <div class="effect effect-4">
+        <div></div>
+      </div>
+    </div>
+    <!--End Effect-->
+  <div class="container">
+    <div class="row">
+      <div class="home-left-box">
+        <span>Hello</span>
+        <h2>I'm Md. Abdul Alim</h2>
+        <p>Web Designer And Developer</p>
+        <div class="btn">
+          <button class="btn-mam">
+            <a href="aboutme.html"> More About Me </a>
+          </button>
         </div>
       </div>
-      <!--End Effect-->
-      <div class="container">
-        <div class="row">
-          <div class="home-left-box">
-            <span>Hello</span>
-            <h2>I'm Md. Abdul Alim</h2>
-            <p>Web Designer And Developer</p>
-            <div class="btn">
-              <button class="btn-mam">
-                <a href="aboutme.html"> More About Me </a>
-              </button>
-            </div>
-          </div>
-          <div class="home-right-box">
-            <div class="img-icon">
-              <div class="img-icon-man">
-                <img src="src/img/durontoalim.png" alt="" />
-              </div>
-            </div>
+      <div class="home-right-box">
+        <div class="img-icon">
+          <div class="img-icon-man">
+            <img src="src/img/durontoalim.png" alt="" />
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
     <!--End Home Section-->
 
     <!--Start About Section-->
@@ -182,22 +164,16 @@
 
     <!--Start Skills Section-->
     <section id="skills-section">
-      <div class="container">
+      <div class="container mixitup-container">
         <div class="row">
           <div class="tabs">
-            <div class="skills-tab active-inner">
-              <a href="#skill-section">Skills</a>
-            </div>
-            <div class="experience-tab">
-              <a href="#experience">Experience</a>
-            </div>
-            <div class="education-tab">
-              <a href="#">Education</a>
-            </div>
+              <button class="inner-shadow mixitup-control-active" type="button" data-filter=".skill">Skill</button>
+              <button type="button" data-filter=".experience">Experience</button>
+              <button type="button" data-filter=".education">Education</button>
           </div>
         </div>
 
-        <div id="skill-section" class="skill">
+        <div id="skill-section" class="skill mix">
           <!--start Skill item-->
           <div class="grid-container">
             <div class="html-section">
@@ -331,7 +307,7 @@
         <!--End skill item-->
         
         <!--Experience Start-->
-        <div class="row" id="experience">
+        <div class="row experience mix" id="experience">
           <div class="experience-wrapper">
             <!--Absoule Middle line Start-->
             <div class="middle-line"></div>
@@ -385,6 +361,61 @@
           </div>
         </div>
         <!--Experience End-->
+        <!--Education Start-->
+        <div class="row mix education" id="education">
+          <div class="experience-wrapper">
+            <!--Absoule Middle line Start-->
+            <div class="middle-line"></div>
+            <!--Absoule Middle line End-->
+            <div class="row">
+              <!--Web Develeoper Start-->
+              <div class="developer">
+                <div class="developer-box">
+                  <div class="middle-line-icon"></div>
+                  <span><i class="fas fa-briefcase"></i> August 2017</span>
+                  <h3>Full Stack Developer</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis accusantium cumque eligendi dolore earum animi labore
+                    quisquam facilis voluptatum sed.
+                  </p>
+                </div>
+              </div>
+              <!--Web Developer End-->
+
+              <!--Web Design Start-->
+              <div class="developer">
+                <div class="developer-box">
+                  <div class="middle-line-icon"></div>
+                  <span><i class="fas fa-briefcase"></i> November 2017</span>
+                  <h3>Web Design</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis accusantium cumque eligendi dolore earum animi labore
+                    quisquam facilis voluptatum sed.
+                  </p>
+                </div>
+              </div>
+              <!--Web Design End-->
+
+              <!--Theme Developer Start-->
+              <div class="developer">
+                <div class="developer-box">
+                  <div class="middle-line-icon"></div>
+                  <span><i class="fas fa-briefcase"></i> January 2018</span>
+                  <h3>Theme Developer</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis accusantium cumque eligendi dolore earum animi labore
+                    quisquam facilis voluptatum sed.
+                  </p>
+                </div>
+              </div>
+              <!--Theme Developer End-->
+            </div>
+          </div>
+        </div>
+        <!--Education End-->
       </div>
     </section>
     <!--End Skills Section-->
@@ -678,12 +709,12 @@
       </div>
     </section>
 
-    <!--Bootstrap-->
-
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- style switcher js -->
     <script src="src/js/style-switcher.js"></script>
-    <script src="vendor/js/mixitup.js"></script>
+    <script src="vendor/js/mixitup.min.js"></script>
     <!-- main js -->
     <script src="src/js/main.js"></script>
   </body>
