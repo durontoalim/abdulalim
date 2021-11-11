@@ -3,4 +3,46 @@
         padding: 0px 40px;
         margin: auto;
     }
+    .home-left-box {
+        width: 100%;
+        padding-top: 80px;
+    }
+    .home-right-box {
+        max-width: 100%;
+        padding-left: 50%;
+    }
+    .img-about-sec {
+        width: 100%;
+    }
+    .img-about {
+        max-width: 100%;
+        width: 50%;
+    }
+    .about-details-sec {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+    .services-box-wrap {
+        max-width: 100%;
+        flex: none;
+    }
+    .portfolio-box-wrapper .portfolio-box{
+        flex: none;
+    }
+    .testimonial-box{
+        max-width: 100%;
+    }
+    .p-e-a{
+        flex: none;
+    }
+    .contact-form .fm-section .w-50 {
+        width: 100%;
+        flex: none;
+    }
+    .fm-control-btn {
+        text-align: center;
+    }
 }
