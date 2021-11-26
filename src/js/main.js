@@ -3,6 +3,10 @@ $(document).ready(function(){
     var mixer = mixitup ('.mixitup-container');
 });
 
+$(document).ready(function(){
+    var mixer = mixitup ('.mixitup-js');
+});
+
 /*--------------Testimonial Slider-----------------------*/
 (() =>{
     const silderContainer = document.querySelector(".testi-slider-container"),
