@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Personal Portfolio Website</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <title>Duronto Alim</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
     <!-- font awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
     <!--Bootstrap-->
 
     <!-- main css -->
-    <link rel="stylesheet" type="text/css" href="src/css/proggress-bar.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css"/>
-    
-
+    <link rel="stylesheet" type="text/css" href="src/css/proggress-bar.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/skins/color-1.css"/>
+    <link rel="stylesheet" href="src/css/responsive.css">
 
   </head>
   <body>
@@ -28,7 +28,20 @@
             </div>
             <div class="list-menu-btn outer-shadow">
               <div class="bar-icon">
-                <i class="fas fa-stream"></i>
+                <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+                <div id="myNav" class="overlay">
+                  <a href="javascript:void()" onclick="closeNav()" class="closebtn">&times;</a>
+                  <div class="overlay-content">
+                    <ul>
+                      <li><a onclick="closeNav()" href="index.html">Home</a></li>
+                      <li><a onclick="closeNav()" href="aboutme.html">About</a></li>
+                      <li><a onclick="closeNav()" href="portfolio.html">Portfolio</a></li>
+                      <li><a onclick="closeNav()" href="service.html">Service </a></li>
+                      <li><a onclick="closeNav()" href="testimonial.html">Testimonial</a></li>
+                      <li><a onclick="closeNav()" href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -36,22 +49,6 @@
       </div>
     </header>
     <!--Header Section End-->
-
-    <!--Navigation Menu Start-->
-    <nav class="navigation-menu-section">
-      <div class="navigation-close-icon"></div>
-      <div class="nav-menu" id="#Navbar-toggler">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About</a></li>
-          <li><a href="service.html">Service</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="testimonial.html">Testimonial</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!--Navigation menu End-->
 
     <!--Contact Section-->
     <section id="contact-section">
@@ -64,7 +61,7 @@
         </div>
         <div class="row">
           <!--Phone Start-->
-          <div class="p-e-a inner-shadow">
+          <div class="p-e-a inner-shadow outer-shadow-hover">
             <div class="p-e-a-icon">
               <i class="fas fa-phone-alt"></i>
             </div>
@@ -73,7 +70,7 @@
           </div>
           <!--Phone End-->
           <!--Email Start-->
-          <div class="p-e-a inner-shadow">
+          <div class="p-e-a inner-shadow outer-shadow-hover">
             <div class="p-e-a-icon">
               <i class="fas fa-envelope"></i>
             </div>
@@ -82,7 +79,7 @@
           </div>
           <!--Email End-->
           <!--Location Start-->
-          <div class="p-e-a inner-shadow">
+          <div class="p-e-a inner-shadow outer-shadow-hover">
             <div class="p-e-a-icon">
               <i class="fas fa-map-marker-alt"></i>
             </div>
@@ -122,11 +119,13 @@
       </div>
     </section>
 
-    <!--Bootstrap-->
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <!-- main js -->
-    <script src="js/main.js"></script>
     <!-- style switcher js -->
-    <script src="js/style-switcher.js"></script>
+    <script src="src/js/style-switcher.js"></script>
+    <script src="vendor/js/mixitup.min.js"></script>
+    <!-- main js -->
+    <script src="src/js/main.js"></script>
   </body>
 </html>

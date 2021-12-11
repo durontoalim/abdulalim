@@ -146,6 +146,49 @@ Navigation menu
 .active-inner a {
   color: crimson;
 }
+.overlay{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background: #EFF0F4;
+  padding-top: 20px;
+  display: none;
+}
+.closebtn {
+  float: right;
+  font-size: 40px;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  margin-right: 7%;
+  color: #000;
+}
+.overlay-content {
+  padding-top: 100px;
+}
+.overlay-content ul li{
+  padding: 12px 0px;
+}
+.overlay-content ul li a {
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+  font-size: 25px;
+  padding: 5px 25px;
+  color: #000;
+}
+.overlay-content ul li a:hover {
+  box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+  color: #fb839e;
+}
+.overlay-content ul li:first-child a{
+  box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+  color: #fb839e;
+}
 /*------------------------
 Start Home Section
 ------------------------*/
@@ -706,6 +749,7 @@ Testimonial
 CONTACT SECTION
 ==============*/
 #contact-section {
+  padding-top: 50px;
 }
 .header-wrapper {
   text-align: center;

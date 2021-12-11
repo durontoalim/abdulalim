@@ -28,7 +28,20 @@
             </div>
             <div class="list-menu-btn outer-shadow">
               <div class="bar-icon">
-                <i class="fas fa-stream"></i>
+                <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+                <div id="myNav" class="overlay">
+                  <a href="javascript:void()" onclick="closeNav()" class="closebtn">&times;</a>
+                  <div class="overlay-content">
+                    <ul>
+                      <li><a onclick="closeNav()" href="index.html">Home</a></li>
+                      <li><a onclick="closeNav()" href="aboutme.html">About</a></li>
+                      <li><a onclick="closeNav()" href="portfolio.html">Portfolio</a></li>
+                      <li><a onclick="closeNav()" href="service.html">Service </a></li>
+                      <li><a onclick="closeNav()" href="testimonial.html">Testimonial</a></li>
+                      <li><a onclick="closeNav()" href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -674,7 +687,7 @@
               <i class="fas fa-map-marker-alt"></i>
             </div>
             <h6>Location</h6>
-            <span> 192/3 Dadid road, HK</span>
+            <span> Dhaka, Bangladesh</span>
           </div>
           <!--Location End-->
         </div>
